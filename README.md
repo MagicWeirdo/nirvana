@@ -23,3 +23,7 @@ def hello(request):
 
   return data
 ```
+
+app.get('/', hello)
+
+app.run()
